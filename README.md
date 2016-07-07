@@ -34,6 +34,7 @@ A public domain single header file testing module. C++11 or newer required.
 ```
 
 # Todo 1.0:
+- I would like to refactor to include an optional `xo` namespace.
 - Change API to use an error macro rather than a string directly. It can wrap the creation of a struct that also pops in file name and line number. Something along the lines of `TEST_ERR("it failed")`.
 - Include warning functionality.
 - Figure out whatever file log format makes sense for integration into the CI I plan to use, and also log to file optionally (off by default).
